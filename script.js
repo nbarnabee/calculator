@@ -28,6 +28,6 @@ function populateArray(click) {
 
 
 function calculateAnswer() {
-  answer = eval(calcString);
-  document.getElementById("displayField").innerHTML = answer;
+  calcString = eval(calcString);
+  document.getElementById("displayField").innerHTML = calcString;
 }
