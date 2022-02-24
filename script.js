@@ -23,11 +23,11 @@ function populateArray(click) {
   calcString = calcArray.join("");
   document.getElementById("displayField").innerHTML = calcString;
   return calcString;
-
 }
 
 
 function calculateAnswer() {
-  calcString = eval(calcString);
-  document.getElementById("displayField").innerHTML = calcString;
+  answer = eval(calcString);
+  document.getElementById("displayField").innerHTML = answer;
+  calcArray = [answer];
 }
