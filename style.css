@@ -6,12 +6,12 @@ main {
 
 h2 {
   height: 25px;
+  text-align: right;
 }
 
 section {
   display: flex;
   flex-wrap: wrap;
-  align-contents: flex-start;
+  align-items: flex-start;
   gap: 5px;
 }
-
